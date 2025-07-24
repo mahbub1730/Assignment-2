@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navber {
+    display: flex;
+    padding: 30px 150px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 135px;
+    height: 82px;
+}
+.nav-right {
+    
+}
+.nav-right ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 48px;
+}
+/* style banner section */
