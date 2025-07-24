@@ -111,3 +111,47 @@
   cursor: pointer;
   font-weight: bold;
 }
+
+/* ===== Flower & Plants Lover Section ===== */
+.lover-section {
+  padding: 150px;
+  background-color: #fffaf6;
+}
+
+.lover-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.lover-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.lover-text h2 {
+  font-size: 50px;
+  color: #222;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.lover-text ul li {
+  font-size: 22px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.lover-image {
+  flex: 1;
+  text-align: center;
+}
+
+.lover-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
